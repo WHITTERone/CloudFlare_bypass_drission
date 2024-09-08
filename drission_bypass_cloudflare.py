@@ -63,8 +63,6 @@ if shadow_host:
     # Encontre o iframe dentro do shadow-root
     iframe = sr.child()
     iframe.run_js(script_open_shadow)
-    iframe.run_js(script_open_shadow)
-    iframe.run_js(script_open_shadow)
 
     if iframe:
         print("Iframe encontrado:")
